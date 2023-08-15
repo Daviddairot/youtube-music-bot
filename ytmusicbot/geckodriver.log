@@ -1,0 +1,182 @@
+1692105453382	geckodriver	INFO	Listening on 127.0.0.1:53666
+1692105456374	mozrunner::runner	INFO	Running command: "C:/Users/DAIRO/Desktop/Tor Browser/Browser/firefox.exe" "--marionette" "--remote-debugging-port" "53667" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DAIRO\\AppData\\Local\\Temp\\rust_mozprofileaG0FI1"
+console.info: SecurityLevel: Listening for messages from NoScript.
+console.info: SecurityLevel: Initializing security-prefs.js
+console.info: SecurityLevel: security-prefs.js initialization complete
+console.info: TorProtocolService: SOCKS port type: TCP
+console.info: TorProtocolService: SOCKS host: 127.0.0.1
+console.info: TorProtocolService: SOCKS port: 9150
+1692105456997	Marionette	INFO	Marionette enabled
+1692105457004	Marionette	INFO	Listening on port 53675
+WebDriver BiDi listening on ws://localhost:53667
+console.debug: TorProtocolService: 
+  TorProtocolService initialized
+Read port: 53675
+console.debug: TorMonitorService: 
+  TorMonitorService initialized
+console.log: "TorConnect: init()"
+console.log: "TorConnect: Entering Initial state"
+console.log: "TorConnect: Observing topic 'TorProcessExited'"
+console.log: "TorConnect: Observing topic 'TorLogHasWarnOrErr'"
+console.log: "TorConnect: Observing topic 'torsettings:ready'"
+1692105457248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: "TorConnect: Will load after bootstrap => [about:blank]"
+console.info: TorMonitorService: tor started
+Aug 15 13:17:38.292 [notice] Tor 0.4.7.14 (git-cac0389f911df057) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 1.1.1u, Zlib 1.2.13, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+Aug 15 13:17:38.292 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+Aug 15 13:17:38.293 [notice] Read configuration file "C:\Users\DAIRO\Desktop\Tor Browser\Browser\TorBrowser\Data\Tor\torrc-defaults".
+Aug 15 13:17:38.293 [notice] Read configuration file "C:\Users\DAIRO\Desktop\Tor Browser\Browser\TorBrowser\Data\Tor\torrc".
+Aug 15 13:17:38.301 [notice] Opening Control listener on 127.0.0.1:9151
+Aug 15 13:17:38.301 [notice] Opened Control listener connection (ready) on 127.0.0.1:9151
+Aug 15 13:17:38.301 [notice] DisableNetwork is set. Tor will not make or accept non-control network connections. Shutting down all existing connections.
+Aug 15 13:17:38.000 [notice] Parsing GEOIP IPv4 file C:\Users\DAIRO\Desktop\Tor Browser\Browser\TorBrowser\Data\Tor\geoip.
+Aug 15 13:17:39.000 [notice] Parsing GEOIP IPv6 file C:\Users\DAIRO\Desktop\Tor Browser\Browser\TorBrowser\Data\Tor\geoip6.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DAIRO\\AppData\\Local\\Temp\\rust_mozprofileaG0FI1\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+Aug 15 13:17:39.000 [notice] Bootstrapped 0% (starting): Starting
+DevTools listening on ws://localhost:53667/devtools/browser/d7238d02-7f23-4d93-9e93-c668b546d5e5
+Aug 15 13:17:42.000 [notice] Delaying directory fetches: DisableNetwork is set.
+Aug 15 13:17:43.000 [notice] Starting with guard context "default"
+Aug 15 13:17:43.000 [notice] New control connection opened from 127.0.0.1.
+Aug 15 13:17:43.000 [notice] DisableNetwork is set. Tor will not make or accept non-control network connections. Shutting down all existing connections.
+console.debug: TorMonitorService: 
+  Start watching events:
+Array
+    - 0 = STATUS_CLIENT
+    - 1 = NOTICE
+    - 2 = WARN
+    - 3 = ERR
+    - length = 4
+console.info: TorMonitorService: Notifying TorProcessIsReady
+console.log: "TorSettings: Observed TorProcessIsReady"
+console.log: "TorSettings: applySettings()"
+Aug 15 13:17:43.000 [notice] New control connection opened from 127.0.0.1.
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE New control connection opened from 127.0.0.1.
+console.info: TorMonitorService: Tor NOTICE: New control connection opened from 127.0.0.1.
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE New control connection opened from 127.0.0.1.
+console.info: TorMonitorService: Tor NOTICE: New control connection opened from 127.0.0.1.
+Aug 15 13:17:43.000 [notice] New control connection opened from 127.0.0.1.
+Aug 15 13:17:43.000 [notice] DisableNetwork is set. Tor will not make or accept non-control network connections. Shutting down all existing connections.
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE DisableNetwork is set. Tor will not make or accept non-control network connections. Shutting down all existing connections.
+console.info: TorMonitorService: Tor NOTICE: DisableNetwork is set. Tor will not make or accept non-control network connections. Shutting down all existing connections.
+Aug 15 13:17:43.000 [notice] DisableNetwork is set. Tor will not make or accept non-control network connections. Shutting down all existing connections.
+console.log: "TorSettings: Ready"
+console.log: "TorConnect: Observed torsettings:ready"
+console.log: "TorConnect: Try transitioning from Initial to Configuring"
+console.log: "TorConnect: Exited Initial state"
+console.log: "TorConnect: Entering Configuring state"
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE DisableNetwork is set. Tor will not make or accept non-control network connections. Shutting down all existing connections.
+console.info: TorMonitorService: Tor NOTICE: DisableNetwork is set. Tor will not make or accept non-control network connections. Shutting down all existing connections.
+console.log: "TorConnect: beginBootstrap()"
+console.log: "TorConnect: Try transitioning from Configuring to Bootstrapping"
+console.log: "TorConnect: Exited Configuring state"
+console.log: "TorConnect: Entering Bootstrapping state"
+Aug 15 13:17:43.000 [notice] Opening Socks listener on 127.0.0.1:9150
+Aug 15 13:17:43.000 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9150
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE Opening Socks listener on 127.0.0.1:9150
+console.info: TorMonitorService: Tor NOTICE: Opening Socks listener on 127.0.0.1:9150
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE Opened Socks listener connection (ready) on 127.0.0.1:9150
+console.info: TorMonitorService: Tor NOTICE: Opened Socks listener connection (ready) on 127.0.0.1:9150
+console.debug: TorMonitorService: 
+  Event response: 
+  650 STATUS_CLIENT NOTICE ENOUGH_DIR_INFO
+console.info: "NOTICE ENOUGH_DIR_INFO"
+console.log: "TorConnect: Bootstrapping 0% complete (Starting)"
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE Bootstrapped 5% (conn): Connecting to a relay
+console.info: TorMonitorService: Tor NOTICE: Bootstrapped 5% (conn): Connecting to a relay
+console.debug: TorMonitorService: 
+  Event response: 
+  650 STATUS_CLIENT NOTICE BOOTSTRAP PROGRESS=5 TAG=conn SUMMARY="Connecting to a relay"
+console.log: "TorConnect: Bootstrapping 5% complete (Connecting to a Tor relay)"
+Aug 15 13:17:44.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+Aug 15 13:17:44.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE Bootstrapped 10% (conn_done): Connected to a relay
+console.info: TorMonitorService: Tor NOTICE: Bootstrapped 10% (conn_done): Connected to a relay
+console.debug: TorMonitorService: 
+  Event response: 
+  650 STATUS_CLIENT NOTICE BOOTSTRAP PROGRESS=10 TAG=conn_done SUMMARY="Connected to a relay"
+console.log: "TorConnect: Bootstrapping 10% complete (Connected to a Tor relay)"
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE Bootstrapped 14% (handshake): Handshaking with a relay
+console.info: TorMonitorService: Tor NOTICE: Bootstrapped 14% (handshake): Handshaking with a relay
+console.debug: TorMonitorService: 
+  Event response: 
+  650 STATUS_CLIENT NOTICE BOOTSTRAP PROGRESS=14 TAG=handshake SUMMARY="Handshaking with a relay"
+console.log: "TorConnect: Bootstrapping 14% complete (Negotiating with a Tor relay)"
+Aug 15 13:17:45.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+Aug 15 13:17:46.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE Bootstrapped 15% (handshake_done): Handshake with a relay done
+console.info: TorMonitorService: Tor NOTICE: Bootstrapped 15% (handshake_done): Handshake with a relay done
+console.debug: TorMonitorService: 
+  Event response: 
+  650 STATUS_CLIENT NOTICE BOOTSTRAP PROGRESS=15 TAG=handshake_done SUMMARY="Handshake with a relay done"
+console.log: "TorConnect: Bootstrapping 15% complete (Finished negotiating with a Tor relay)"
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+console.info: TorMonitorService: Tor NOTICE: Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+console.debug: TorMonitorService: 
+  Event response: 
+  650 STATUS_CLIENT NOTICE BOOTSTRAP PROGRESS=75 TAG=enough_dirinfo SUMMARY="Loaded enough directory info to build circuits"
+console.log: "TorConnect: Bootstrapping 75% complete (Finished loading relay information)"
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+console.info: TorMonitorService: Tor NOTICE: Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+console.debug: TorMonitorService: 
+  Event response: 
+  650 STATUS_CLIENT NOTICE BOOTSTRAP PROGRESS=90 TAG=ap_handshake_done SUMMARY="Handshake finished with a relay to build circuits"
+console.log: "TorConnect: Bootstrapping 90% complete (Building circuits: Finished negotiating with a Tor relay)"
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+console.info: TorMonitorService: Tor NOTICE: Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+console.debug: TorMonitorService: 
+  Event response: 
+  650 STATUS_CLIENT NOTICE BOOTSTRAP PROGRESS=95 TAG=circuit_create SUMMARY="Establishing a Tor circuit"
+console.log: "TorConnect: Bootstrapping 95% complete (Building circuits: Establishing a Tor circuit)"
+Aug 15 13:17:46.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+Aug 15 13:17:46.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 15 13:17:46.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+console.debug: TorMonitorService: 
+  Event response: 
+  650 NOTICE Bootstrapped 100% (done): Done
+console.info: TorMonitorService: Tor NOTICE: Bootstrapped 100% (done): Done
+console.debug: TorMonitorService: 
+  Event response: 
+  650 STATUS_CLIENT NOTICE BOOTSTRAP PROGRESS=100 TAG=done SUMMARY="Done"
+console.log: "TorConnect: Bootstrapping 100% complete (Connected to the Tor network!)"
+console.log: "TorConnect: Try transitioning from Bootstrapping to Bootstrapped"
+console.log: "TorConnect: Exited Bootstrapping state"
+console.log: "TorConnect: Entering Bootstrapped state"
+console.debug: TorMonitorService: 
+  Event response: 
+  650 STATUS_CLIENT NOTICE CIRCUIT_ESTABLISHED
+console.info: "NOTICE CIRCUIT_ESTABLISHED"
+Aug 15 13:17:47.000 [notice] Bootstrapped 100% (done): Done
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://consent.youtube.com"
+1692105664591	Marionette	INFO	Stopped listening on port 53675
+console.info: TorProtocolService: Closing the control connection
+Aug 15 13:21:04.000 [notice] Owning controller connection has closed -- exiting now.
